@@ -23,6 +23,7 @@ const addUser = async (req, res) => {
     res.redirect("/users"); // Redirecting to the users page after successful addition
   } catch (error) {
     // Sending error response if there's an error saving user
+    console.log(error);
     res.status(500).send("Error saving user");
   }
 };
