@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- Character encoding for UTF-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Responsive viewport meta tag -->
+    <title>Users</title>
+    <!-- Title of the page -->
+  </head>
+  <body>
+    <% if (users.length === 0) { %>
+    <!-- Checking if the length of the users array is 0 -->
+    <h1>No users to display</h1>
+    <!-- Display this message if the length is 0 -->
+    <% } else { %>
+    <!-- If length is greater than 0 -->
+    <h1>List of Users</h1>
+    <!-- Display this heading -->
+    <ul>
+      <% users.forEach(user => { %>
+      <!-- Looping through the users array -->
+      <li><%= user.user_name %></li>
+      <!-- Display each user -->
+      <% }); %>
+    </ul>
+    <% } %>
+  </body>
+</html>

@@ -1,0 +1,46 @@
+/* Add your CSS styles here */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: #333;
+  padding-right: 10px;
+}
+
+form {
+  margin-top: 20px;
+}
+
+input[type="text"] {
+  width: 200px;
+  padding: 8px; /* Increased padding for better input field appearance */
+  margin-right: 10px;
+  border-radius: 5px; /* Rounded corners for input field */
+  border: 1px solid #ccc; /* Adding border for better distinction */
+}
+
+button {
+  padding: 8px 16px; /* Increased padding for better button appearance */
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px; /* Rounded corners for button */
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+ul {
+  padding: 20px;
+  list-style-type: disc;
+}
+
+ul li {
+  margin-bottom: 10px; /* Increased margin for better list item separation */
+}

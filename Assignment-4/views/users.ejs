@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- Character encoding for UTF-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Responsive viewport meta tag -->
+    <title>Users</title>
+    <!-- Title of the page -->
+  </head>
+  <body>
+    <h1>List of Users</h1>
+    <!-- Heading for the users list -->
+    <ul>
+      <% users.forEach(user => { %>
+      <!-- Looping through the users array -->
+      <li><%= user %></li>
+      <!-- Displaying each user in a list item -->
+      <% }); %>
+    </ul>
+  </body>
+</html>
