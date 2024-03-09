@@ -66,5 +66,5 @@ const server = http.createServer((req, res) => {
 
 // Listening on port 3000
 server.listen(3000, () => {
-  console.log("server connected");
+  console.log("server connected on port 3000");
 });
